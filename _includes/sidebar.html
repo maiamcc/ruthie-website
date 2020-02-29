@@ -11,11 +11,15 @@
     <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
 
+    {% if sidebar.pronouns %}
+    <h4 class="pronouns">({{ sidebar.pronouns }})</h4>
+    {% endif %}
+
     {% if sidebar.tagline %}
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
-  </div><!--//profile-container-->
+  </div>
 
   {% include contact.html %}
 
@@ -30,4 +34,4 @@
     {% include about.html %}
   {% endif %}
 
-</div><!--//sidebar-wrapper-->
+</div>
