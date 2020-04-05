@@ -10,7 +10,10 @@ I graduated from MIT in 2013 with a bachelors degree in Computer Science and a m
 
 I love folk music and dance.  I [contra dance](http://en.wikipedia.org/wiki/Contra_dance), waltz, and dabble in other dance styles.  I play fiddle in a contra dance band called [Switching Protocols](http://switchingprotocolsband.com/) (you can email us at booking@switchingprotocolsband.com).  I also play [Swedish folk music](http://www.youtube.com/watch?v=LIViyqKLE4w) on fiddle and [nyckelharpa](http://www.nyckelharpa.org/about/what-is-a-nyckelharpa/).  I am also an organizer of [Next Generation Dance Camp](http://nextgendancecamp.org).
 
-### Blog Posts
+<b class="hr">
+
+<h3 class="writingsheader">Writings</h3>
+
 I infrequently write new things, but here are my favoritest blog posts, preserved for posterify.
 
 {% include postlist.html %}
