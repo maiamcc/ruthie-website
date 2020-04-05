@@ -2,7 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: $text-color-secondary;
-    background: $smoky-white;
+    background: $background;
     font-size: 14px;
     padding: 30px;
     -webkit-font-smoothing: antialiased;
@@ -14,10 +14,10 @@ h1, h2, h3, h4, h5, h6  {
 }
 
 a {
-    color: darken($theme-color, 15%);
+    color: darken($link-color, 15%);
     &:hover {
         text-decoration: underline;
-        color: darken($theme-color, 30%);
+        color: $link-hover-color;
     }
     &:focus {
         text-decoration: none;
@@ -161,7 +161,7 @@ p {
 }
 
 .main-wrapper {
-    background: #fff;
+    background: $main-wrapper;
     padding: 60px;
     padding-right: 340px;
     .section-title {
@@ -255,7 +255,7 @@ p {
     }
     .level-bar {
         height: 12px;
-        background: $smoky-white;
+        background: $background;
     }
     .level-bar-inner {
         height: 12px;

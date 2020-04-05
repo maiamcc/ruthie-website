@@ -17,7 +17,7 @@ a.readmore {
 
 /* Gratuitous rainbow horizontal divider src: https://codepen.io/simeydotme/pen/rVqrrN */
 
-$bg: #fff; /* should match background of page */
+$bg: $main-wrapper;
 $barsize: 15px;
 
 .hr {
