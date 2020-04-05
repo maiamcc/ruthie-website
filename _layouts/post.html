@@ -7,9 +7,6 @@ single: true
 {% endif %}
 
 <article class="post">{% include article.html %}</article>
-{% unless page.sharing == false %}
-	{% include post/sharing.html %}
-{% endunless %}
 {% if page.comments == true %}
 <section id="comment">
     <h2 class="title">Comments</h2>
