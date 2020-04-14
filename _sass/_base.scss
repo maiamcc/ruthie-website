@@ -1,7 +1,7 @@
 /* ======= Base ======= */
 body {
     font-family: 'Roboto', sans-serif;
-    color: $text-color-secondary;
+    color: $text-color;
     background: $background;
     font-size: 14px;
     padding: 30px;
@@ -47,12 +47,11 @@ p {
     a {
         color: #fff;
         &:hover {
-            color: #bbb;
+            color: $lighter-grey;
         }
     }
     .profile-container {
         padding: 30px;
-        //background: darken($theme-color, 10%);
         background: rgba(0, 0, 0, 0.2);
         text-align: center;
         color: #fff;
@@ -191,7 +190,7 @@ p {
         margin-bottom: 2px;
     }
     .job-title, .degree {
-        color: $text-color;
+        color: $text-color-secondary;
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
@@ -227,7 +226,7 @@ p {
     .publication-title {
         font-size: 16px;
         font-weight: 400;
-        color: $text-color;
+        color: $text-color-secondary;
         margin-bottom: 1px;
     }
     .publication-authors {
@@ -273,7 +272,7 @@ p {
     padding-top: 30px;
     .copyright {
         line-height: 1.6;
-        color: $text-color-secondary;
+        color: $text-color;
         font-size: 13px;
     }
 
