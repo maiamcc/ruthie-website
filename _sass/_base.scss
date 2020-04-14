@@ -46,6 +46,9 @@ p {
     color: #fff;
     a {
         color: #fff;
+        &:hover {
+            color: #bbb;
+        }
     }
     .profile-container {
         padding: 30px;
@@ -88,7 +91,7 @@ p {
     }
     .contact-list {
         .fas, .fab {
-            margin-right: 5px;
+            margin-right: 10px;
             font-size: 18px;
             vertical-align: middle;
         }
