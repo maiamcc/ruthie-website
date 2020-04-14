@@ -15,7 +15,7 @@ a.readmore {
     margin-top: -0.5em;
 }
 
-/* Gratuitous rainbow horizontal divider src: https://codepen.io/simeydotme/pen/rVqrrN */
+/* Dashed horizontal divider adapted from: https://codepen.io/simeydotme/pen/rVqrrN */
 
 $bg: $main-wrapper;
 $barsize: 15px;
@@ -34,34 +34,19 @@ $barsize: 15px;
         position: absolute;
 
         width: 100%;
-        height: 2px;
+        height: 1px;
         bottom: 50%;
         left: 0;
     }
 
-    &:after {
-        transition: opacity 0.3s ease, animation 0.3s ease;
-
-        background: linear-gradient(
-            to right,
-            #62efab 5%,
-            #F2EA7D 15%,
-            #F2EA7D 25%,
-            #FF8797 35%,
-            #FF8797 45%,
-            #e1a4f4 55%,
-            #e1a4f4 65%,
-            #82fff4 75%,
-            #82fff4 85%,
-            #62efab 95%);
-
-        background-size: 200%;
-        background-position: 0%;
-        animation: bar 15s linear infinite;
+    &:before {
+        background: linear-gradient( 90deg, $bg 0%, $bg 50%, transparent 50%, transparent 100% );
+        background-size: $barsize;
+        background-position: center;
+        z-index: 1;
     }
 
-    @keyframes bar {
-        0% { background-position: 0%; }
-        100% { background-position: 200%; }
+    &:after {
+        background-color: $background;
     }
 }
